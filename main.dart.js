@@ -38171,7 +38171,7 @@ var $async$ob=P.R(function(c,d){if(c===1)return P.T(d,r)
 while(true)switch(s){case 0:n=t.X
 m=P.al(["Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Origin","*"],n,n)
 s=2
-return P.L(G.PZ("http://localhost:8080/loginUser",C.a3.mM(P.al(["userName",a,"password",b],n,n),null),m),$async$ob)
+return P.L(G.PZ("http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/loginUser",C.a3.mM(P.al(["userName",a,"password",b],n,n),null),m),$async$ob)
 case 2:l=d
 s=l.b===200?3:4
 break
@@ -38219,7 +38219,7 @@ var $async$rG=P.R(function(d,e){if(d===1)return P.T(e,r)
 while(true)switch(s){case 0:p=t.X
 o=P.al(["Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Origin","*"],p,p)
 s=2
-return P.L(G.PZ("http://localhost:8080/api/test/addUser",C.a3.mM(P.al(["userName",a,"password",b,"mail",c],p,p),null),o),$async$rG)
+return P.L(G.PZ("http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/api/test/addUser",C.a3.mM(P.al(["userName",a,"password",b,"mail",c],p,p),null),o),$async$rG)
 case 2:if(e.b===200)q.r.B(0,!0)
 return P.U(null,r)}})
 return P.V($async$rG,r)}}
@@ -38355,7 +38355,7 @@ E.f9.prototype={
 q1:function(a){return this.a78(a)},
 a78:function(a){var s=0,r=P.W(t.kU),q,p=this,o,n,m,l
 var $async$q1=P.R(function(b,c){if(b===1)return P.T(c,r)
-while(true)switch(s){case 0:n="http://localhost:8080/userProjects/"+H.b(a)
+while(true)switch(s){case 0:n="http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/userProjects/"+H.b(a)
 P.dx(n)
 m=G
 l=n
@@ -38371,7 +38371,7 @@ return P.V($async$q1,r)},
 q0:function(a){return this.a77(a)},
 a77:function(a){var s=0,r=P.W(t.sX),q,p=this,o,n,m,l
 var $async$q0=P.R(function(b,c){if(b===1)return P.T(c,r)
-while(true)switch(s){case 0:n="http://localhost:8080/api/projects/pages/"+H.b(a)
+while(true)switch(s){case 0:n="http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/api/projects/pages/"+H.b(a)
 P.dx(n)
 m=G
 l=n
@@ -38387,7 +38387,7 @@ return P.V($async$q0,r)},
 hi:function(a){return this.a75(a)},
 a75:function(a){var s=0,r=P.W(t.Q0),q,p=this,o,n,m,l
 var $async$hi=P.R(function(b,c){if(b===1)return P.T(c,r)
-while(true)switch(s){case 0:n="http://localhost:8080/api/projects/pages/comments/"+H.b(a)
+while(true)switch(s){case 0:n="http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/api/projects/pages/comments/"+H.b(a)
 P.dx(n)
 m=G
 l=n
@@ -38403,7 +38403,7 @@ return P.V($async$hi,r)},
 q2:function(a){return this.a7a(a)},
 a7a:function(a){var s=0,r=P.W(t.GD),q,p=this,o,n,m,l
 var $async$q2=P.R(function(b,c){if(b===1)return P.T(c,r)
-while(true)switch(s){case 0:n="http://localhost:8080/api/projects/pages/comments/subComments/"+H.b(a)
+while(true)switch(s){case 0:n="http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/api/projects/pages/comments/subComments/"+H.b(a)
 P.dx(n)
 m=G
 l=n
@@ -38436,7 +38436,7 @@ return P.V($async$eY,r)},
 pk:function(a,b,c,d){return this.a4u(a,b,c,d)},
 a4u:function(a,b,c,d){var s=0,r=P.W(t.X),q,p=this,o,n,m,l
 var $async$pk=P.R(function(e,f){if(e===1)return P.T(f,r)
-while(true)switch(s){case 0:m=D.adB("POST",P.lq("http://localhost:8080/userProjects/addProject"))
+while(true)switch(s){case 0:m=D.adB("POST",P.lq("http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/userProjects/addProject"))
 m.z.push(K.adA("file",c,R.pz("image",p.we(0,d),null),d))
 o=m.y
 o.n(0,"userId",J.bW(a))
@@ -38457,7 +38457,7 @@ return P.V($async$pk,r)},
 nW:function(a,b,c,d,e){return this.PE(a,b,c,d,e)},
 PE:function(a,b,c,d,e){var s=0,r=P.W(t.X),q,p=this,o,n,m,l
 var $async$nW=P.R(function(f,g){if(f===1)return P.T(g,r)
-while(true)switch(s){case 0:m=D.adB("POST",P.lq("http://localhost:8080/api/projects/pages/comments/addSubCommentImage"))
+while(true)switch(s){case 0:m=D.adB("POST",P.lq("http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/api/projects/pages/comments/addSubCommentImage"))
 m.z.push(K.adA("file",c,R.pz("image",p.we(0,e),null),e))
 o=m.y
 o.n(0,"userId",J.bW(a))
@@ -38479,7 +38479,7 @@ return P.V($async$nW,r)},
 ph:function(a,b,c,d){return this.a4q(a,b,c,d)},
 a4q:function(a,b,c,d){var s=0,r=P.W(t.X),q,p=this,o,n,m,l
 var $async$ph=P.R(function(e,f){if(e===1)return P.T(f,r)
-while(true)switch(s){case 0:m=D.adB("POST",P.lq("http://localhost:8080/api/projects/pages/addPage"))
+while(true)switch(s){case 0:m=D.adB("POST",P.lq("http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/api/projects/pages/addPage"))
 m.z.push(K.adA("file",c,R.pz("image",p.we(0,d),null),d))
 o=m.y
 o.n(0,"projectId",J.bW(a))
@@ -38505,7 +38505,7 @@ while(true)switch(s){case 0:s=3
 return P.L(p.eY(),$async$pl)
 case 3:o=c
 s=4
-return P.L(G.PZ("http://localhost:8080/api/projects/pages/comments/addSubComment",C.a3.mM(a,null),o),$async$pl)
+return P.L(G.PZ("http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/api/projects/pages/comments/addSubComment",C.a3.mM(a,null),o),$async$pl)
 case 4:n=c
 P.dx(B.o9(U.o3(n.e).c.a.h(0,"charset")).cu(0,n.x))
 if(n.b===200){q="SUCCESS"
@@ -38519,7 +38519,7 @@ while(true)switch(s){case 0:s=3
 return P.L(p.eY(),$async$pe)
 case 3:m=d
 s=4
-return P.L(G.PZ("http://localhost:8080/api/projects/pages/comments/addComment",C.a3.mM(new Y.Qz(a,b),null),m),$async$pe)
+return P.L(G.PZ("http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/api/projects/pages/comments/addComment",C.a3.mM(new Y.Qz(a,b),null),m),$async$pe)
 case 4:l=d
 m=l.e
 o=B.o9(U.o3(m).c.a.h(0,"charset"))
@@ -38537,7 +38537,7 @@ return P.L(p.eY(),$async$o1)
 case 3:o=d
 n=t.X
 s=4
-return P.L(G.PZ("http://localhost:8080/shareProject",C.a3.mM(P.al(["id",J.bW(a),"mail",b],n,n),null),o),$async$o1)
+return P.L(G.PZ("http://ec2-18-217-112-156.us-east-2.compute.amazonaws.com:8080/shareProject",C.a3.mM(P.al(["id",J.bW(a),"mail",b],n,n),null),o),$async$o1)
 case 4:if(d.b===200){q="SUCCESS"
 s=1
 break}else{q="FAILURE"
